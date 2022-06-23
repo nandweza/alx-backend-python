@@ -14,4 +14,4 @@ def safely_get_value(
     if key in dct:
         return dct[key]
     else:
-        return
+        return default
